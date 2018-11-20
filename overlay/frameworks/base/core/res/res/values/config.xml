@@ -23,6 +23,9 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
+    <!-- Whether the device has fingeprint sensor or not -->
+    <bool name="config_hasFingerprintSensor">true</bool>
+
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
     <bool translatable="false" name="skip_restoring_network_selection">true</bool>
@@ -386,23 +389,20 @@
     <!-- Whether device has a notch -->
     <bool name="config_haveNotch">true</bool>
 
-     <!-- Whether device has dash charging support -->
-     <bool name="config_hasDashCharger">true</bool>
+    <!-- Whether device has dash charging support -->
+    <bool name="config_hasDashCharger">true</bool>
 
-     <!-- Enable dual LTE capability support-->
-     <bool name="config_dual_LTE_capability">true</bool>
+    <!-- Enable dual LTE capability support-->
+    <bool name="config_dual_LTE_capability">true</bool>
 
-     <!-- Whether the device supports Smart Pixels -->
-     <bool name="config_enableSmartPixels">true</bool>
-
-	    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveBatteryLed">true</bool>
 
        <!-- Does the battery LED support multiple colors?
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">true</bool>
 
-       <!-- Do the battery/notification LEDs support pulsing?
+    <!-- Do the battery/notification LEDs support pulsing?
          Used to decide if we show pulse settings -->
     <bool name="config_ledCanPulse">true</bool>
 
@@ -411,13 +411,7 @@
          states. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
-     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
-    <bool name="config_displayBlanksAfterDoze">false</bool>
-
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool></resources>
-
-    <!-- Whether the device has fingeprint sensor or not -->
-    <bool name="config_hasFingerprintSensor">true</bool>
 
 </resources>
